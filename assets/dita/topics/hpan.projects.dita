@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="urn:dita-ng:dita:rng:topic.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="urn:dita-ng:dita:rng:topic.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<topic id="hpan.projects">
+  <title>Hardpan Tech - Projects Matrix</title>
+  <prolog>
+    <author>Sean Champ</author>
+    <copyright>
+      <copyryear year="2015"/>
+      <copyrholder>Sean Champ</copyrholder>
+    </copyright>
+    <critdates><created date="2016-01-16"/></critdates>
+    <metadata>
+      <foreign outputclass="pmgrns">HPAN::HPAN_OPEN::PROJECTS</foreign>
+    </metadata>
+  </prolog>
+  <body>
+    <sl>
+      <sli><xref href="#hpan.projects.feldspar">FELDSPAR Projects</xref></sli>
+      <sli><xref href="#hpan.projects.granite">GRANITENET Projects</xref></sli>
+      <sli><xref href="#hpan.projects.obp">Open Book Projects</xref></sli>
+    </sl>
+  </body>
+  <topic id="hpan.projects.feldspar">
+    <title>FELDSPAR Projects</title>
+    <body>
+      <sl>
+        <sli><xref href="#hpan.projects.feldspar.dcomp">Distributed Computing</xref></sli>
+        <sli><xref href="#hpan.projects.feldspar.mcomp">Mathematical Computing</xref></sli>
+        <sli><xref href="#hpan.projects.feldspar.kmgr">Knowledge Management</xref></sli>
+        <sli><xref href="#hpan.projects.feldspar.hci">Human-Computer Interfaces</xref></sli>
+        <sli><xref href="#hpan.projects.feldspar.cltlput">Common Lisp Programming Utilities</xref></sli>
+      </sl>
+    </body>
+    <topic id="hpan.projects.feldspar.dcomp">
+      <title>Distributed Computing</title>
+      <body>
+        <sl>
+          <sli>CLORB Fork</sli>
+          <sli>PANOS (subsuming notes in mci:dobelle-app)</sli>
+        </sl>
+      </body>
+    </topic>
+    <topic id="hpan.projects.feldspar.mcomp">
+      <title>Mathematical Computing</title>
+      <body>
+        <sl>
+          <sli>(Igneous Math, revised for adaptation to HPAN projecs)</sli>
+          <sli>TBD: Maxima integration (to Igneous Math=>HPAN)</sli>
+          <sli>TBD: ACL2 integration (GraniteLoom)</sli>
+          <sli>TBD: Measurements and Data Models (Igneous Math)</sli>
+        </sl>
+      </body>
+    </topic>
+    <topic id="hpan.projects.feldspar.kmgr">
+     <title>Knowledge Management</title>
+      <body>
+        <sl>
+          <sli>GraniteLoom (fork of PowerLoom)</sli>
+        </sl>
+      </body>
+   </topic>
+    <topic id="hpan.projects.feldspar.hci">
+      <title>Human-Computer Interfaces</title>
+      <body>
+        <sl>
+          <sli>McCLIM Fork</sli>
+          <sli>TBD: EFL port (FreeBSD) and EFL port (CLIM), along with definitions of related environment "Glue" for applying EFL and CAIRO in CLtL2</sli>
+        </sl>
+      </body>
+    </topic>
+    <topic id="hpan.projets.feldspar.cltlput">
+      <title>Common Lisp Programming Utilities</title>
+      <body>
+        <sl>
+          <sli>(CL-util - MCI)</sli>
+          <sli>(AFFTA - MCI)</sli>
+          <sli>(portable kqueue net lib) (TBD)</sli>
+          <sli>(modal bordeaux threads) (TBD)</sli>
+        </sl>
+      </body>
+    </topic>
+  </topic>
+  <topic id="hpan.projects.granite">
+    <title>GRANITENET Projects</title>
+    <body>
+      <sl>
+        <sli><xref href="#hpan.projects.granite.cornet">Component-Oriented Networking</xref></sli>
+        <sli><xref href="#hpan.projects.granite.sonet">SOHO Network Architecture</xref></sli>
+      </sl>
+    </body>
+    <topic id="hpan.projects.granite.cornet">
+      <title>Component-Oriented Networking</title>
+      <body>
+        <p>Component-oriented host-level support for ditial networking applications</p>
+        <sl>
+          <sli>(Ports Support)</sli>
+          <sli>(FreeBSD Admin/Documentation Support)</sli>
+          <sli>(Logical Platform Modeling)</sli>
+        </sl>
+      </body>
+    </topic>
+    <topic id="hpan.projects.granite.sonet">
+      <title>SOHO Nework Architecture</title>
+      <body>
+        <p>Network Architectures for Small Office/Home Office (SOHO) Applications</p>
+        <sl>
+          <sli>SOHO Local Area Network (LAN) (GRANITELAN)</sli>
+          <sli>SOHO Software Defined Networking (SDN) (GRANITESDN)</sli>
+          <sli>SOHO Secure/Wide Area Network (S/WAN) (GRANITEWAN)</sli>
+        </sl>
+      </body>
+    </topic>
+  </topic>
+  <topic id="hpan.projects.obp">
+    <title>Open Book Projects</title>
+    <body>
+      <sl>
+        <sli>OBP - Open Book Project (OBP) Open Book (OB)</sli>
+        <sli>OBP - Electrical Engineering (EE) OB</sli>
+        <sli>OBP - Open Knowledge Management (OpenKM) OB</sli>
+        <sli>OBP - Civic Communications OB</sli>
+      </sl>
+    </body>
+  </topic>
+</topic>
